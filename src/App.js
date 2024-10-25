@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, NavLink, Navigate } from 'react-router-dom';
+import {  Routes, Route, NavLink, Navigate } from 'react-router-dom';
 import "./App.css";
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+
 
  
 // Components for different pages
